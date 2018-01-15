@@ -1,4 +1,6 @@
 // Binary Search Example
+// It must be done in ascending ordered array/list
+// We can do it either recursively or repeatedly
 #include <iostream>
 #include <string>
 
