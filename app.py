@@ -13,11 +13,11 @@ db=client.get_database('mydatabase')
 def homepage():
     return "BANGLADESH"
 
-@app.route('/value',methods = ['GET','POST'])
-def value():
-    content = request.json
-    result=db.gasReadings.insert_one(content)
-    return result;
+#@app.route('/value',methods = ['GET','POST'])
+#def value():
+
+    #result=db.gasReadings.insert_one(content)
+    #return result;
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)
