@@ -1,8 +1,9 @@
 from flask import Flask
 from flask import request
-from pymongo import MongoClient
+import pymongo
 
 app = Flask(__name__)
+
 
 @app.route('/')
 def homepage():
